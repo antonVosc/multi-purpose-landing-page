@@ -1,5 +1,11 @@
+import Starter from "./sections/Starter";
+
 function App() {
-    return <div>Hello</div>;
+    return (
+      <div>
+        <Starter />
+      </div>
+    );
 }
 
 export default App;
