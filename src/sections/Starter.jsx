@@ -4,10 +4,12 @@ import Button from "../components/Button";
 import { GoPlay } from "react-icons/go";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import "../styles/sections/Starter.scss";
+import Navbar from "../components/Navbar";
 
 function Starter() {
   return (
     <div className="main-container">
+      <Navbar />
       <div className="container">
         <div className="content">
           <h1>This Website Has Been Created to Practice React Skills.</h1>
